@@ -1,3 +1,8 @@
+<h1 align="center"><code>This is just a personal fork with changed graphics</code></h1>
+<h2 align="center"><code>I love this Firmware, kudos to ClaraCrazy, i just tweaked it a little disabling all the SFW & NSFW graphics, and adding mine, and like this is faster, nothing more</code></h2>
+<br>
+<br>
+
 <h1 align="center">XFW - <code>Xtreme Firmware</code> for the Flipper Zero</h1>
 
 <p align="center">
