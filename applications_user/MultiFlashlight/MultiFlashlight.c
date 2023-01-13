@@ -40,16 +40,32 @@ static void render_callback(Canvas* const canvas, void* ctx) {
     // Green and White are inverted for some reason
     switch(KeyPressed) {
     case 1:
-        Str = "RED";
+        if(plugin_state->is_on) {
+            Str = "RED";
+        } else {
+            Str = "OFF";
+        }
         break;
     case 2:
-        Str = "GREEN";
+        if(plugin_state->is_on) {
+            Str = "GREEN";
+        } else {
+            Str = "OFF";
+        }
         break;
     case 3:
-        Str = "WHITE";
+        if(plugin_state->is_on) {
+            Str = "WHITE";
+        } else {
+            Str = "OFF";
+        }
         break;
     case 4:
-        Str = "BLUE";
+        if(plugin_state->is_on) {
+            Str = "BLUE";
+        } else {
+            Str = "OFF";
+        }
         break;
     case 0:
         if(plugin_state->is_on) {
